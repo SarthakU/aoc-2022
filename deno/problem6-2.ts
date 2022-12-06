@@ -12,7 +12,7 @@ for (const char of file) {
   } else {
     signal.push(char);
   }
-  if (signal.length === 4) {
+  if (signal.length === 14) {
     break;
   }
 }
